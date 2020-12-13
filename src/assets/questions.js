@@ -13,7 +13,7 @@ const questions = [
     question:
       "As I was returning from college, I went found a dark street down the lane, a man with his small shop was cooking pasta, which seemed delicious, I asked him what's the price, he replied 'mamma mia', before I resume the conversation, can u help me find out his native language?",
     optionA: "Spanish",
-    optionB: "Chinease",
+    optionB: "German",
     optionC: "Italian",
     optionD: "Gujrati",
     answer: "German",
