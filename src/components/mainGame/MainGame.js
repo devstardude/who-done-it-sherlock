@@ -148,7 +148,18 @@ class MainGame extends Component {
     this.setState({ redirect: true });
   };
   soundHandler=()=>{
-    const sound = [Hindi,German,Polish,Spanish,Italian,Russian,French,Japanese,Chinease]
+    const sound = [
+      Hindi,
+      German,
+      Polish,
+      Spanish,
+      Italian,
+      Russian,
+      French,
+      Japanese,
+      Chinease,
+      Albanian,
+    ];
 
     const soundOn = new Howl({
       src: [sound[this.state.numberOfAnsweredQuestions]],
