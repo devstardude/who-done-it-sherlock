@@ -1,0 +1,9 @@
+.nextPrevButton {
+  min-width: 160px !important;
+}
+
+@media (max-width: 768px) {
+    .nextPrevButton {
+  min-width: 140px !important;
+}
+}
