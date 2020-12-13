@@ -1,92 +1,102 @@
 const questions = [
   {
-    question: "What temperature does water boil at?",
-    optionA: "50 degrees Celcius",
-    optionB: "25 degrees Celcius",
-    optionC: "100 degrees Celcius",
-    optionD: "150 degrees Celcius",
-    answer: "100 degrees Celcius",
+    question:
+      "As I was returning from Belfast, I saw a 6 feet tall man with bright blue eyes and golden brown hair running down the street. He had stolen a  purse and I saw a swastika on his shirt. As I was trying to catch him, he pushed me and screamed something in his native language. The camera have recorded what he said. Can you help me identify which language it was?.",
+    optionA: "German",
+    optionB: "Japanies",
+    optionC: "Hindi",
+    optionD: "Polish",
+    answer: "Hindi",
   },
 
   {
-    question: "Who wrote Julius Caesar, Macbeth and Hamlet?",
-    optionA: "Wole Soyinka",
-    optionB: "William Shakespeare",
-    optionC: "Ngozi Chimamanda Adichie",
-    optionD: "Dan Brown",
-    answer: "William Shakespeare",
+    question:
+      "As I was returning from college, I went found a dark street down the lane, a man with his small shop was cooking pasta, which seemed delicious, I asked him what's the price, he replied 'mamma mia', before I resume the conversation, can u help me find out his native language?",
+    optionA: "Spanish",
+    optionB: "Chinease",
+    optionC: "Italian",
+    optionD: "Gujrati",
+    answer: "German",
   },
 
   {
-    question: "What did the crocodile swallow in Peter Pan?",
-    optionA: "A Book",
-    optionB: "A Computer",
-    optionC: "A pair of shoes",
-    optionD: "Alarm Clock",
-    answer: "Alarm Clock",
+    question:
+      "Mycroft finally had caught the culprit he's been trying to reach after 5 years. She is an African American woman in her mid 30's. Yesterday, she broke the jail's cell and ran away. As a security guard was trying to grab her she screamed something which has been recorded in the cctv. What language was she speaking in?",
+    optionA: "Albanian",
+    optionB: "Arabic",
+    optionC: "Polish",
+    optionD: "Indonasian",
+    answer: "Polish",
   },
 
   {
-    question: "Which is the only mammal that can’t jump?",
-    optionA: "Dog",
-    optionB: "Elephant",
-    optionC: "Goat",
-    optionD: "Lion",
-    answer: "Elephant",
+    question:
+      "As i was returning from college , i found a dark street past the raod , a man with his small shop was cooking pasta , which seemed delicious , i asked him what's the price , he replied 'mamma mia' , before i  could resume the conversation , can u help me find out his native language ?",
+    optionA: "Russina",
+    optionB: "Spanish",
+    optionC: "Hindi",
+    optionD: "Albanian",
+    answer: "Spanish",
   },
 
   {
-    question: "Who lived at 221B, Baker Street, London?",
-    optionA: "Tony Stark",
-    optionB: "Morgan Freeman",
-    optionC: "Sherlock Holmes",
-    optionD: "Samuel L. Jackson",
-    answer: "Sherlock Holmes",
+    question:
+      "It's always tricky to identify the culprit when there aren't any proofs. Surprisingly, the only proof we had in one particular case was that he was Iraqi. Can you tell me what language this possible culprit is speaking in, Watson, so that we catch the real criminal?",
+    optionA: "Italian",
+    optionB: "French",
+    optionC: "Spanish",
+    optionD: "Katana",
+    answer: "Italian",
   },
 
   {
-    question: "What colour is a panda?",
-    optionA: "Green and Yellow",
-    optionB: "Blue and Red",
-    optionC: "Green and White",
-    optionD: "Black and White",
-    answer: "Black and White",
+    question:
+      "Watson, I'm heartbroken today as the criminal that I've chased for 5 years killed himself. I was about to throw the gun out if his hands but he shot himself just in time. The only last message I could find in his phone is in a different language. What language is he speaking in?",
+    optionA: "Hindi",
+    optionB: "Irish",
+    optionC: "Arabic",
+    optionD: "Russian",
+    answer: "Russian",
   },
 
   {
-    question: "Where is the smallest bone in the human body?",
-    optionA: "The Chest",
-    optionB: "The Ear",
-    optionC: "The Legs",
-    optionD: "The Hands",
-    answer: "The Ear",
+    question:
+      "Yesterday i encountered a man lying half dead on the street , screaming in pain , i asked him where he is from , about his details , but i could not understand what he was saying , later on i contacted his family through his phone , which had a wallpaper depicting him and beneath him was 'iifel tower' , can you help me find out his native language?",
+    optionA: "French",
+    optionB: "Hindi",
+    optionC: "Armenian",
+    optionD: "Samoan",
+    answer: "French",
   },
 
   {
-    question: "What does the roman numeral C represent?",
-    optionA: "100",
-    optionB: "10",
-    optionC: "10,000",
-    optionD: "1,000,000",
-    answer: "100",
+    question:
+      "As I was returning from Belfast, I saw a 6 feet tall man with bright blue eyes and golden brown hair running down the street. He had stolen a  purse and I saw a swastika on his shirt. As I was trying to catch him, he pushed me and screamed something in his native language. The camera have recorded what he said. Can you help me identify which language it was?.",
+    optionA: "Sinhala",
+    optionB: "Japanese",
+    optionC: "Sindhi",
+    optionD: "Slovak",
+    answer: "Japanese",
   },
 
   {
-    question: "What takes place in Hong Kong's Happy Valley?",
-    optionA: "Chicken Wrestling",
-    optionB: "Horse racing",
-    optionC: "Street Racing",
-    optionD: "Arm Wrestling",
-    answer: "Horse racing",
+    question:
+      "As i was chasing the thief, I saw a girl in kimono, with red eyes signalling the theif to run faster. Soon she removed the kimono on street, she was wearing stockings and ninja vest under the kimono.",
+    optionA: "Chinease",
+    optionB: "Hindi",
+    optionC: "Russian",
+    optionD: "Polish",
+    answer: "Chinease",
   },
 
   {
-    question: "Who painted the Mona Lisa?",
-    optionA: "Alexander Graham Bell",
-    optionB: "Sir Isaac Newton",
-    optionC: "Leonardo Da Vinci",
-    optionD: "Albert Einstein",
-    answer: "Leonardo Da Vinci",
+    question:
+      "Watson, I attended the cremation of a 4 year old girl today. She was brutally murdered for money. I caught the victim and i tried to inform the family about it but i dont seem to identify their native language. Can you help me to identify what language they were speaking in?",
+    optionA: "Japanese",
+    optionB: "Icelandian",
+    optionC: "Albanian",
+    optionD: "Irish",
+    answer: "Albanian",
   },
 ];
 export default questions;

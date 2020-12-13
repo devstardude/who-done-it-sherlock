@@ -22,7 +22,7 @@ const QuestionCard = (props) => {
             </div>
           </div>
           <h5 className="card-title justify-content-left">{props.title} </h5>
-          <p className="card-text btn btn-outline-light mt-2">
+          <p onClick={props.soundOn} className="card-text btn btn-outline-light mt-2">
             🔊 Click to Play{" "}
           </p>
           <div className="mt-2 row">

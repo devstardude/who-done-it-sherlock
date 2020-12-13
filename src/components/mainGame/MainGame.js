@@ -9,6 +9,17 @@ import yesImport from "../../assets/sound/yes.mp3";
 import "./MainGame.css";
 import { Redirect } from "react-router";
 import ScoreCard from "../shared/scoreCard/ScoreCard";
+import Albanian from "../../assets/sound/Albanian.mp3";
+import Chinease from "../../assets/sound/Chinease.mp3";
+import French from "../../assets/sound/French.mp3";
+import German from "../../assets/sound/German.mp3";
+import Hindi from "../../assets/sound/Hindi.mp3";
+import Italian from "../../assets/sound/Italian.mp3";
+import Japanese from "../../assets/sound/Japanese.mp3";
+import Polish from "../../assets/sound/Polish.mp3";
+import Russian from "../../assets/sound/Russian.mp3";
+import Spanish from "../../assets/sound/Spanish.mp3";
+
 
 class MainGame extends Component {
   constructor(props) {
@@ -136,6 +147,14 @@ class MainGame extends Component {
     alert("Game has ended!");
     this.setState({ redirect: true });
   };
+  soundHandler=()=>{
+    const sound = [Hindi,German,Polish,Spanish,Italian,Russian,French,Japanese,Chinease]
+
+    const soundOn = new Howl({
+      src: [sound[this.state.numberOfAnsweredQuestions]],
+    });
+    soundOn.play();
+  }
 
   render() {
     const { currentQuestion } = this.state;
@@ -161,6 +180,7 @@ class MainGame extends Component {
             rightBtnText="Next"
             nextClick={this.nextQuestion}
             quit={this.quitGameHandler}
+            soundOn={this.soundHandler}
           />
         )}
         {this.state.gameEnded && (
